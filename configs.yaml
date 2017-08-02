@@ -1,0 +1,245 @@
+###############################################################################
+#                                 Slack Tim List                              #
+###############################################################################
+slack_teams:
+  T69EXPF8T :
+    team_name:            TIM A
+    slash_command_token:  rMrIlSSWvTCrHeFOvB0NBE57
+    incoming_webhook_url: |
+        https://hooks.slack.com/services/T69EXPF8T/B69HKPNGK/UD64nsM91A3qb
+        FZVVpScFjkh
+
+  T6ADVPQBG:
+    team_name:            TIM B
+    slash_command_token:  ON54wRQQ85vBrhMNOFbA9pE5
+    incoming_webhook_url: |
+        https://hooks.slack.com/services/T6ADVPQBG/B6AGF9DQE/I6kt4oWnMIYG3
+        6ITIlo2gLQl
+
+  T69EYJXNX:
+    team_name:            PRODUCTION
+    slash_command_token:  u7mjdv3oKVIgx4YehEk96Ut8
+    incoming_webhook_url: |
+        https://hooks.slack.com/services/T69EYJXNX/B693VCFUZ/36gWRJlprN0BK
+        qGLWGq9JgRE
+
+###############################################################################
+#                             EC2 Instance List                               #
+###############################################################################
+instances:
+  instance-a-01:
+    id :                  i-0dfc4587aefe2e5e0
+    region :              us-west-2
+    slack_team_id:        T69EXPF8T
+
+  instance-a-02:
+    id :                  i-0910e38630542e8fc
+    region :              us-east-1
+    slack_team_id:        T69EXPF8T
+
+  instance-b-01:
+    id :                  i-088b3710eb01ec087
+    region :              us-west-2
+    slack_team_id:        T6ADVPQBG
+
+  instance-b-02:
+    id :                  i-0f75e3271cb46a0c5
+    region :              us-east-1
+    slack_team_id:        T6ADVPQBG
+
+  olympia-staging:
+    id :                  i-65204feb
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  olympia:
+    id :                  i-091a09c33ddafddb6
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-01:
+    id :                  i-46f11fc7
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-02:
+    id :                  i-581270d6
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-03:
+    id :                  i-46f11fc7
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koi-01:
+    id :                  i-0e3b7580
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koi-02:
+    id :                  i-581270d6
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koi-03:
+    id :                  i-b5e7b03b
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-01:
+    id :                  i-581270d6
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-02:
+    id :                  i-8e177500
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-03:
+    id :                  i-fd4d5173
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-04:
+    id :                  i-98988816
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-05:
+    id :                  i-b3b7a53d
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  koitools-06:
+    id :                  i-e90c6e67
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-bcai-01:
+    id :                  i-06636a1a9600ddc25
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-bcai-02:
+    id :                  i-02e3901dfdd97232d
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  practest-01:
+    id :                  i-0ccb0480eb1703128
+    region :              us-west-2
+    slack_team_id:        T69EYJXNX
+
+  practest-02:
+    id :                  i-04b5e0864e15ab1c8
+    region :              us-west-2
+    slack_team_id:        T69EYJXNX
+
+  catapa-swarm34:
+    id :                  i-05685afb207d8009f
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-swarm2-01:
+    id :                  i-05685afb207d8009f
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-swarm2-02:
+    id :                  i-05685afb207d8009f
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-swarm3:
+    id :                  i-0c452c626884de536
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  jjo-01:
+    id :                  i-e1dcbb7c
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  jjo-02:
+    id :                  i-df650841
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  jjo-03:
+    id :                  i-d89d7247
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  jjo-04:
+    id :                  i-9f234502
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  jjo-05:
+    id :                  i-801fdac5
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  buzz-01:
+    id :                  i-4bfb337b
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  buzz-02:
+    id :                  i-72c2e1ec
+    region :              us-east-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-staging:
+    id :                  i-46f11fc7
+    region :              ap-southeast-1
+    slack_team_id:        T69EYJXNX
+
+  catapa-web-swarm3:
+    id :                  i-03154238b1efe6411
+    region :              us-west-2
+    slack_team_id:        T69EYJXNX
+
+  CatapaSlave-01:
+    id :                  i-00caf852131086e6a
+    region :              us-west-2
+    slack_team_id:        T69EYJXNX
+
+  CatapaSlave-02:
+    id :                  i-0d94719aa06daa28d
+    region :              us-west-2
+    slack_team_id:        T69EYJXNX
+
+###############################################################################
+#                             Scheduled Instances                             #
+###############################################################################
+scheduled_events:
+  week_days_8_am:
+    scheduled_expression: cron(0 1 ? * MON-FRI *)
+    command:              start
+    state :               ENABLED
+    instances:
+      - instance-a-01
+      - instance-a-02
+      - instance-b-01
+      - instance-b-02
+
+  week_days_7_pm:
+    scheduled_expression: cron(0 15 ? * MON-FRI *)
+    command:              stop
+    state :               ENABLED
+    instances:
+      - instance-a-01
+      - instance-a-02
+      - instance-b-01
+      - instance-b-02
+
+  custom:
+    scheduled_expression: rate(2 minutes)
+    command:              stop
+    state :               DISABLED
+    instances:
+      - instance-a-01
+      - instance-b-01
