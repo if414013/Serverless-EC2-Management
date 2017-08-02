@@ -229,7 +229,7 @@ scheduled_events:
   week_days_7_pm:
     scheduled_expression: cron(0 15 ? * MON-FRI *)
     command:              stop
-    state :               ENABLED
+    state :               DISABLED
     instances:
       - instance-a-01
       - instance-a-02
@@ -241,5 +241,4 @@ scheduled_events:
     command:              stop
     state :               DISABLED
     instances:
-      - instance-a-01
       - instance-b-01

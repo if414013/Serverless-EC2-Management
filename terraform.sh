@@ -1,5 +1,10 @@
 #!/bin/bash
 
+d=$(date +%Y-%m-%d)
+git add .
+git commit -m "$d"
+git push origin master
+
 cd lambda_receiver;rm configs.yaml
 cd ..
 cd lambda_start_stop;rm configs.yaml

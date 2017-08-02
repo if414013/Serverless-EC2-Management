@@ -157,6 +157,6 @@ if boolTeams == True and boolInstances == True and boolEvents == True:
         client.delete_function(FunctionName='lambda_worker')
         client.delete_function(FunctionName='lambda_start_stop')
     except Exception as e:
-        pass
+        print e
     subprocess.call(['./terraform.sh'], shell=True)
     create_or_update_events()
